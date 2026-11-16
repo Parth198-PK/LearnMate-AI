@@ -1,0 +1,136 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF7FA;
+    color: #593D4A;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+header h2 {
+    color: #D979A0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #593D4A;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D979A0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #FFE5EF;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #A64D72;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.main-btn, .feature-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #E58CAE;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.main-btn:hover, .feature-btn:hover {
+    background-color: #C96891;
+}
+
+/* Features Section */
+#features {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #A64D72;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 30px;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-card h3 {
+    color: #D979A0;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 60px 15%;
+    background-color: #FFE5EF;
+}
+
+#about h2 {
+    color: #A64D72;
+    margin-bottom: 20px;
+}
+
+#about p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color: #936D7C;
+}
